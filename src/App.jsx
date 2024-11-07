@@ -1,13 +1,13 @@
+import Form from './Form';
 import './App.css'
-import Card from './Components/Card'
 
 function App() {
-  return(
+  return (
     <div>
-      <Card />
-      <form></form>
+      <h1>Ingresa tu libro favorito:</h1>
+      <Form />
     </div>
-  )
+  );
 }
 
 export default App

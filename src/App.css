@@ -33,8 +33,43 @@
   }
 }
 
+button {
+  padding: 10px;
+  background-color: #52b955;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3d9141;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #e3f2fd;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #e3f2fd
+}
+
 .card {
-  padding: 2em;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #e3f2fd;
+  text-align: center;
 }
 
 .read-the-docs {
